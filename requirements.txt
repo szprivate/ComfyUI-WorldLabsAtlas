@@ -1,0 +1,6 @@
+requests
+numpy
+Pillow
+# Needed to read Atlas depth maps (EXR) for world.glb / PLY. Without it worlds are still created and
+# pictures saved, the mesh step just reports a clear error. Alternative: an OpenCV built with EXR support.
+OpenEXR
